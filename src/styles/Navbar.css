@@ -3,6 +3,7 @@
     background-position: fixed;
     height: 25em;
     color: #fff;
+    position: relative;
 }
 
 .navbar-top {

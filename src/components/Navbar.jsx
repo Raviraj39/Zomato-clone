@@ -38,34 +38,36 @@ class Navbar extends React.Component {
               </li>
             </div>
           </div>
-          <div className="main-nav">
-            <h1>ZOMATO</h1>
-            <h3>Discover the best food & drinks in Your Home</h3>
+          <div className="main-nav flex justify-center flex-col	 mt-20">
+            <h1 className=" flex justify-center text-6xl font-black">ZOMATO</h1>
+            <h3 className="flex justify-center text-3xl mt-3">
+              Discover the best food & drinks in Your Home
+            </h3>
+          </div>
 
-            <div className="search-container">
-              <div className="location-bar">
-                <div className="flex justify-center">
-                  <div className="mb-4 xl:w-96 flex bg-white ">
-                    <div className="block flex" width={"300px"}>
-                      <img src={location} width={"30px"} />
-                      <input
-                        type="text"
-                        placeholder="Place"
-                        className="block w-3/8"
-                      />
-                    </div>
-
-                    <div className="flex">
-                      <input
-                        type="text"
-                        className="input-box "
-                        id="exampleText0"
-                        placeholder="Search Place"
-                      />
-                    </div>
+          <div className="search-container">
+            <div className="location-bar">
+              <div className="flex justify-center">
+                <div className="mb-4 xl:w-96 flex bg-white ">
+                  <div className="block flex" width={"300px"}>
+                    <img src={location} width={"30px"} />
+                    <input
+                      type="text"
+                      placeholder="Place"
+                      className="block w-3/8"
+                    />
                   </div>
-                </div>{" "}
-              </div>
+
+                  <div className="flex">
+                    <input
+                      type="text"
+                      className="input-box "
+                      id="exampleText0"
+                      placeholder="Search Place"
+                    />
+                  </div>
+                </div>
+              </div>{" "}
             </div>
           </div>
         </div>
