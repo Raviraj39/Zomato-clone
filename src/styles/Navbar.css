@@ -1,9 +1,42 @@
 .navbar-main {
     background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: fixed;
+    height: 25em;
+    color: #fff;
 }
 
 .navbar-top {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.logo-image {
+    width: 20px;
+    height: 20px;
+}
+
+.list-items {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.main-logo {
+    font-size: 0.8em;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.nav-link {
+    font-size: 0.9em;
 }

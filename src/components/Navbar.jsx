@@ -7,15 +7,13 @@ class Navbar extends React.Component {
   render() {
     return (
       <>
-        <div className="navbar-main width-50vh">
+        <div className="navbar-main">
           <div className="navbar-top">
             <div className="left-section">
-              <p>
-                <img src={phone} />
-                <a href="/#" className="main-logo">
-                  Get in app
-                </a>
-              </p>
+              <img src={phone} className="logo-image" />
+              <a href="/#" className="main-logo">
+                Get in app
+              </a>
             </div>
             <div className="list-items">
               <li className="nav-item">
@@ -35,7 +33,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item ">
                 <a href="/#" className="nav-link">
-                  LOGOUT
+                  Logout
                 </a>
               </li>
             </div>
@@ -56,14 +54,11 @@ class Navbar extends React.Component {
                         className="block w-3/8"
                       />
                     </div>
-                    {/* <label
-                      for="exampleText0"
-                      class="form-label inline-block mb-2 text-gray-700"
-                    ></label> */}
+
                     <div className="flex">
                       <input
                         type="text"
-                        className="input-box w-5/8 "
+                        className="input-box "
                         id="exampleText0"
                         placeholder="Search Place"
                       />
